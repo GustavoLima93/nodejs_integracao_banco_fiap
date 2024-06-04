@@ -1,7 +1,7 @@
 ---
 presentation:
   width: 1500
-  height: 1500
+  height: 900
   theme: blood.css
 ---
 
@@ -310,3 +310,73 @@ add constraint fk_user_id foreign key (user_id) references user(id);
 ## JWT
 
 - JWT (JSON Web Token) é um padrão para autenticação de usuários em uma API, onde um token compacto e autocontido é gerado durante o login (sign-in), contendo um payload com informações do usuário, que pode ser verificado e confiável porque é assinado digitalmente.
+
+<!-- slide --> 
+
+## MongoDB
+
+- O MongoDB é um banco de dados orientados a documentos ele traz uma abordagem flexível e escalável e ele não vai salvar os dados da maneira tradicional como um banco SQL ele vai salvar objetos BJSON(Bynary JSON) a estrutura e a mesma do JSON que ja conhecemos.  
+
+<!-- slide --> 
+
+## Controllers (NestJS)
+
+![MVC](./assets/images/Controllers_1.png)
+
+<!-- slide --> 
+
+## Providers (NestJS)
+
+![MVC](./assets/images/Components_1.png)
+
+
+<!-- slide --> 
+
+## Módulos (NestJS)
+
+![MVC](./assets/images/Modules_1.png)
+
+
+<!-- slide --> 
+
+## Midlewares (NestJS)
+
+
+![MVC](./assets/images/Middlewares_1.png)
+
+
+
+<!-- slide --> 
+
+## Exception filters (NestJS)
+
+
+![MVC](./assets/images/Filter_1.png)
+
+<!-- slide --> 
+
+## Pipes (NestJS)
+
+
+![MVC](./assets/images/Pipe_1.png)
+
+<!-- slide --> 
+
+## Guards (NestJS)
+
+
+![MVC](./assets/images/Guards_1.png)
+
+<!-- slide --> 
+
+## Interceptors (NestJS)
+
+
+![MVC](./assets/images/Interceptors_1.png)
+
+<!-- slide --> 
+
+## Sequência do Ciclo de Vida (NestJS)
+
+
+![MVC](./assets/images/lifecycle-events.png)
